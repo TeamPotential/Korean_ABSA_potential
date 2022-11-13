@@ -77,7 +77,7 @@ ___
 
 ## 과정  
 
- 1. 개발환경 : Python, pytorch, colab, aws
+ 1. 개발환경 : Python, pytorch, colab, AWS(Amazon Web Service)
  
  2. 데이터 전처리
    - 전처리
@@ -124,14 +124,14 @@ ___
    
  데이터셋 | 데이터 갯수 | 
  :-------:|:-----------:|
- train + dev | 6334 |         
- data + similar | 6735 |       
+ train + dev | 6334|         
+ data + manual | 6744|       
  data + 108 | 6442 |         
- data + manual | 6623 |        
- data + all | 7826 |          
- data + 10_17 | 7175 |       
- data +108_1017_10_24| 7365 |       
- final_data | 9641 |  
+ data + similar | 6515 |        
+ data + all | 7826|          
+ data + 10_17 | 7175|       
+ data +108_1017_10_24| 7365|       
+ final_data | 9641     |  
 
  4. 데이터셋 분석
 
