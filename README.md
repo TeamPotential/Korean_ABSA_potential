@@ -1,4 +1,3 @@
-# Korean_ABSA_potential
 # 2022 국립국어원 인공지능 언어능력 평가 
 ## **prove 폴더 사용설명서 반드시 읽어볼 것**
 
@@ -58,10 +57,10 @@ ___
 >>>내의 prove 폴더에 'predict_final_potential.ipynb' 활용
 >>>모델 돌릴 시 jupyter 파일 위치에 'tmp'라는 이름의 폴더가 없는 환경에서 구동
 
->>2. 필요한 설치(colab 환경시 필수 설치)
->>>- !pip install transformers==4.24.0 (필요 시 설치, 가상환경의 경우 터미널에 설치)
->>>- !pip install datasets==2.6.1 (필요 시 설치, 가상환경의 경우 터미널에 설치)
->>>- !pip install gdown (필요 시 설치, 가상환경의 경우 터미널에 설치)
+>>2. 필요한 설치
+>>>- !pip install transformers==4.24.0 (colab환경 시 필수 설치, 가상환경의 경우 터미널에 설치)
+>>>- !pip install datasets==2.6.1 (colab환경 시 필수 설치, 가상환경의 경우 터미널에 설치)
+>>>- !pip install gdown (colab환경 시 필수 설치, 가상환경의 경우 터미널에 설치)
 
 >>3. 위 과정이 완료 시 모듈 import 항목부터 모두 실행
 >>>- ! 실행 중간에 !gdown 환경에 의해 중단 시 중단된 위치에서 다시 작동해 끝까지 실행
@@ -77,7 +76,7 @@ ___
 
 ## 과정  
 
- 1. 개발환경 : Python, pytorch, colab, AWS(Amazon Web Service)
+ 1. 개발환경 : Python, PyTorch, Colab, AWS(Amazon Web Servise)
  
  2. 데이터 전처리
    - 전처리
@@ -125,9 +124,9 @@ ___
  데이터셋 | 데이터 갯수 | 
  :-------:|:-----------:|
  train + dev | 6334|         
- data + manual | 6744|       
+ data + similar | 6735|       
  data + 108 | 6442 |         
- data + similar | 6515 |        
+ data + manual | 6623 |        
  data + all | 7826|          
  data + 10_17 | 7175|       
  data +108_1017_10_24| 7365|       
