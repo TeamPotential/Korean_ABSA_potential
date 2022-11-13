@@ -57,7 +57,7 @@ ___
 >>>내의 prove 폴더에 'predict_final_potential.ipynb' 활용
 >>>모델 돌릴 시 jupyter 파일 위치에 'tmp'라는 이름의 폴더가 없는 환경에서 구동
 
->>2. 필요한 설치
+>>2. 필요한 설치 ( colab 환경에서는 필수 설치 )
 >>>- !pip install transformers==4.24.0 (colab환경 시 필수 설치, 가상환경의 경우 터미널에 설치)
 >>>- !pip install datasets==2.6.1 (colab환경 시 필수 설치, 가상환경의 경우 터미널에 설치)
 >>>- !pip install gdown (colab환경 시 필수 설치, 가상환경의 경우 터미널에 설치)
