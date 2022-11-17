@@ -172,3 +172,7 @@ ___
 
 ## 보완점
 - 데이터 핸들링을 다양하게 했음에도 불구하고 단일 모델에서 61% 이상 오를 수 없었다. 단일 모델의 성능을 끌어올리기 위해 외부데이터 추가 시 모델의 학습에 적합하게 만들어주기 위한 다양한 방법을 모색함과 동시에 앙상블 최적의 조합을 찾기 위해서 앙상블을 하지 않았던 데이터들을 검토해봐야 할 것 같습니다.
+
+## 참조
+- Clark, Kevin, et al. "Electra: Pre-training text encoders as discriminators rather than generators." arXiv preprint arXiv:2003.10555 (2020).
+https://arxiv.org/abs/2003.10555
